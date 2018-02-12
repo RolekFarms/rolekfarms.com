@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "http://rolekfarms.com/"
+baseURL = "/"
 languageCode = "en-AU"
 title = "Rolek Farms"
 
