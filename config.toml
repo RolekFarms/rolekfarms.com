@@ -1,6 +1,6 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
-baseURL = "/"
+baseURL = "https://rolek-farms.github.io/rolekfarms.com/"
 languageCode = "en-AU"
 title = "Rolek Farms"
 
@@ -11,9 +11,9 @@ title = "Rolek Farms"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/david-hero.jpg"
+  img = "/images/david-hero.jpg"
   title = "Rolek Farms"
-  description = "Happy animals are the best animals"
+  description = "It all starts with a happy animal"
 
 # Navigation section
 [params.nav]
