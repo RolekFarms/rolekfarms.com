@@ -11,7 +11,7 @@ title = "Rolek Farms"
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "/images/david-hero.jpg"
+  img = "images/david-hero.jpg"
   title = "Rolek Farms"
   description = "It all starts with a happy animal"
 
