@@ -1,17 +1,17 @@
 # Main config file for icon theme.
 theme = "hugo-icon"
 baseURL = "https://rolek-farms.github.io/rolekfarms.com/"
-languageCode = "en-AU"
+languageCode = "en-US"
 title = "Rolek Farms"
 
 # Metadata
 [params]
-  author = "Your name"
-  description = "Cool description"
+  author = "Rolek Farms"
+  description = "Rolek Farms is a local Iowa farm the focuses on raising small batch pork and beef."
 
 # Hero section (from here on is for icon theme)
 [params.hero]
-  img = "images/david-hero.jpg"
+  img = "images/hero.jpg"
   title = "Rolek Farms"
   description = "It all starts with a happy animal"
 
@@ -32,7 +32,7 @@ title = "Rolek Farms"
     enable = true
 
     [[params.mission.images.list]]
-      img = "images/img_3.jpg"
+      img = "images/david.jpg"
     [[params.mission.images.list]]
       img = "images/img_2.jpg"
     [[params.mission.images.list]]
@@ -64,7 +64,7 @@ title = "Rolek Farms"
 # Services section
 [params.services]
   enable = true
-  video = true
+  video = false
   vidlink = "https://vimeo.com/channels/staffpicks/93951774"
   title = "Our Services"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
@@ -146,53 +146,42 @@ title = "Rolek Farms"
 # Team section
 [params.team]
   enable = true
-  title = "Meet The Team"
+  title = "Meet The Brothers"
   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
 
   [[params.team.item]]
-    name = "Jean Doe"
-    position = "Chief legend"
+    name = "David Rolek"
+    position = "Farmer"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-    img = "images/person1.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-    linkedin = "#"
+    img = "images/david.jpg"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
+    #linkedin = "#"
 
   [[params.team.item]]
-    name = "Alice Doe"
-    position = "Chief overlord"
+    name = "Eric Rolek"
+    position = "Carpenter"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/person2.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
 
   [[params.team.item]]
-    name = "John Doe"
-    position = "Chief haranguer"
+    name = "Chuck Rolek"
+    position = "Technologist"
     description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
     img = "images/person3.jpg"
-    facebook = "#"
-    twitter = "#"
-    dribbble = "#"
-    instagram = "#"
-    github = "#"
-
-  # [[params.team.item]]
-  #   name = "Jason Doe"
-  #   position = "Chief haranguer"
-  #   description = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
-  #   img = "images/person3.jpg"
-  #   facebook = "#"
-  #   twitter = "#"
-  #   dribbble = "#"
-  #   instagram = "#"
-  #   github = "#"
+    #facebook = "#"
+    #twitter = "#"
+    #dribbble = "#"
+    #instagram = "#"
+    #github = "#"
 
 # Contact section
 [params.contact]
@@ -203,7 +192,7 @@ title = "Rolek Farms"
 # Footer section
 # Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
 [params.footer]
-  enable = true
+  enable = false
   note = "<p><small>&copy; 2016 Free HTML5 Template. All Rights Reserved. <br> Designed by <a href='http://freehtml5.co/' target='_blank'>FreeHTML5.co</a> Demo Images: <a href='http://pexels.com/' target='_blank'>Pexels</a><br>Hugo port by <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a></small></p>"
   github = "#"
   twitter = "#"
@@ -211,4 +200,3 @@ title = "Rolek Farms"
   vine = "#"
   linkedin = "#"
   instagram = "#"
-  
